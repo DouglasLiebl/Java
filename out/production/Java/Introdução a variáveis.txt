@@ -1,0 +1,68 @@
+O que é uma Variável:
+-- Área de memória associada a um nome, que pode armazanar valores de um determinado tipo.
+-- Exemplo: armazenar a idade de uma pessoa.
+
+Como declarar uma variável:
+-- <tipo> <nome da variável>
+-- <tipo> <nome da variável> = <valor>
+
+Convenção de Nomenclatura:
+-- O java possui um determinado tempo de Palavras Reservadas, as quais não podem ser utilizadas
+como nome de uma variável.
+-- Inicio: [a-z], [A-Z], [_], [&]
+-- Segunda letra em diante: [a-z], [A-Z], [_], [&], [0-9]
+-- camelCase: normalmente nomes compostos de variaveis iniciam-se com letra minuscula e a primeira letra
+da outra palavra é maiuscula. Ex: guardaChuva.
+
+
+Tipos primitivos:
+-- Tipos Inteiros
+-- Tipos Ponto Flutuante
+-- Tipo Char
+-- Tipo Boolean
+-- Literais
+
+>> Tipos Inteiros:
+-- Byte -> 8 bits
+-- Short -> 16 bits
+-- Int -> 32 bits
+-- Long -> 64 bits
+
+>> Tipos Ponto Flutuante:
+-- Float -> 32 bits
+-- Double -> 64 bits
+
+>> Tipo Char:
+-- Apenas um caractere, aceita código ASCII.
+
+>> Tipo Boolean:
+-- True e False.
+
+>> Literais:
+-- Sequência de Escape:
+-- \t -> tab
+-- \b -> backspace
+-- \n -> nova linha
+-- \r -> retorno de carro
+-- \f -> avanço de página
+-- \' -> aspas simples
+-- \" -> aspas duplas
+-- \\ -> barra invertida
+-- \ddd -> constante octal
+-- \uxxxx -> constante hexadecimal
+
+
+Leitura de dados do teclado:
+>> Classe Scanner:
+-- Scanner scan = new Scanner(System.in);
+|-------------------------|
+|import_java.util.Scanner;|
+|-------------------------|
+
+Formas de ler dados:
+1°: Lendo uma linha inteira.
+-- String nome = scan.nextLine();
+2°: Lendo um tipo de dado especifico.
+-- String primeiroNome = scan.next();
+-- int idade = scan.nextInt();
+-- float idade = scan.nextFloat();

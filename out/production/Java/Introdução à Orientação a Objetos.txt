@@ -1,0 +1,20 @@
+Introdução a Orientação a Objetos
+
+1 Classes
+2 Objetos
+3 Herança
+4 Polimorfismo
+
+Classe
+-- Descrição de um grupo de objetos.
+O que é uma classe:
+-- Nome da classe
+-- Conjunto de atributos (descrição)
+-- Conjunto de métodos (comportamentos)
+
+Herança
+-- Permite reutilização da estrutura e do comportamento de uma classe
+
+Polimorfismo
+-- Habilidade de variáveis terem "mais de um tipo"
+
