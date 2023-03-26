@@ -1,6 +1,5 @@
 // Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit.
 package Exercicios;
-
 import java.util.Scanner;
 import java.math.RoundingMode;
 import java.text.DecimalFormat;

@@ -4,7 +4,6 @@ a1-- o produto do dobro do primeiro com metade do segundo .
 a2-- a soma do triplo do primeiro com o terceiro.
 a3-- o terceiro elevado ao cubo.
 */
-
 package Exercicios;
 import java.util.Scanner;
 import java.text.DecimalFormat;
