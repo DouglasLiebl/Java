@@ -10,11 +10,11 @@ public class EX022 {
         letra = input.next();
 
         if (letra.equals("F")){
-            System.out.println("Feminino");
+            System.out.println("Feminino.");
         } else if (letra.equals("M")){
-            System.out.println("Masculino");
+            System.out.println("Masculino.");
         } else {
-            System.out.println("Sexo Inválido");
+            System.out.println("Sexo Inválido.");
         }
     }
 }
